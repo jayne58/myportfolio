@@ -6,11 +6,14 @@
 }
 
 .navbar {
-    color: #fff;
+    color: black;
+    position: fixed;
+    top: 0;
     display: flex;
-    justify-content: right;
-    padding: 20px 60px;
-    gap: 40px;
+    justify-content: left;
+    margin-left: 400px;
+    /* padding: 20px 10px; */
+    gap: 20px;
     font-size: 20px;
 }
 
@@ -31,13 +34,17 @@
     display: none;
     position: absolute;
 }
+.navbar a{
+    color: white;
+  }
+  
 
-.navbar>div:hover {
-    border-bottom: 5px solid white;
+.navbar a:hover {
+    color:blue;
 }
 
 .hero-section {
-    background-image: url("me2.jpg");
+    background-image: url("images/me2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
@@ -151,24 +158,7 @@
 
     }
 
-    .services {
 
-
-    }
-
-    .service_box  {
-        display: block ;
-        width: 100% !important;
-        background-color: rgb(124, 25, 25);
-        color: #fff;
-
-    }
-    .blog_box_img {
-        display: none;
-    }
-    .blog_box {
-        width: 100% !important;
-    }
 
 
 }
@@ -212,8 +202,8 @@
 
 .services_heading {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    /* justify-content: center; */
     padding: 20px;
     font-size: 25px;
     font-weight: bold;
@@ -232,7 +222,7 @@
     width: 26%;
     padding: 20px;
     margin: 20px;
-    background-color: rgb(177, 107, 85);
+    background-color: gray;
     color: #fff;
     transition: all .5s ease;
 
@@ -263,6 +253,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background-color: rgb(219, 216, 216);
     }
     .footer .icons i{
         font-size: 30px;
