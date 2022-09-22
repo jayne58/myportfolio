@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Jane's portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -15,15 +15,15 @@
 <body>
     <div class="hero-section">
         <nav class="navbar">
-            <div>  Home</div>
-            <div>About</div> 
-            <div>Contact Me</div>
-            <div>Blog</div>
-            <div>Services</div>
+            <div><a href="#home">Home</a></div>
+            <div><a href="#about">About</a></div> 
+            <div><a href="#skills">Skills and services</a></div>
+            <div><a href="#home">Contact Me</a></div>
             <span class="hambuger-menu">
                 <i class="fa-solid fa-bars"></i>
             </span>
         </nav>
+        <section id="home">
         <div class="hero-text">
             <h4>HELLO I'M JANE A WEB DEVELOPER AND UI UX DESIGNER</h4>
             <div class="buttons">
@@ -43,21 +43,23 @@
 
                     <span style="margin: 10px">
                         <a href="https://github.com/jayne58"><i class="fa-brands fa-github"></i></a>
-                        
                     </span>
+                    <a href="mailto:jane66861@gmail.com"><i class="fa-regular fa-envelope"></i></a>
             </div>
         </div>
+    </section>
     </div>
+
+    <section id="about">
     <div class="about">
         <div class="about_img ">
-            <img src="me1.jpg" alt="">
+            <img src="images/me1.jpg" alt="">
         </div>
         <div class="about_text">
             <p> About Me</p>
             <span>
                 I am a talented passionate front end web developer with an exemplary academic record and a passion for continuous
-                learning and professional development.I have excellent technical skills underpinned by experience in
-                pressurised environments necessitating self motivation and a positive response to pressure. Check out my github for some of the projects i have worked on before.
+                learning and professional development.I attended a web development bootcamp offered by eMobilis mobile technical training institute which equipped with the skills I have.I am a fourth year student in JKUAT taking bachelors of science in Telecommunication and information engineering. Check out my github for some of the projects i have worked on before.
                 <br></span>
             <div class="buttons">
                 <div class="buttons_hire-me">
@@ -69,54 +71,49 @@
             </div>
         </div>
     </div>
-    <div class="services_heading">
-        Services
+</section>
+<section id="skills">
+    <div class="services_heading">Skills and Services
     </div>
     <div class="services ">
         <div class="service_box">
             <div class="service_box_icon"> <i class="fa-regular fa-square-check"></i> </div>
-            <div class="service_box_heading">
-
-                Clean Code</div>
-            <div class="service_box_text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
-                doloremque? </div>
+            <div class="service_box_heading">Clean Code</div>
         </div>
         <div class="service_box">
             <div class="service_box_icon"> <i class="fa-solid fa-gear"></i></div>
-            <div class="service_box_heading"> Creative design </div>
-            <div class="service_box_text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quos molestiae
-                aliquid maxime quod repudiandae natus quasi dignissimos porro vero! </div>
+            <div class="service_box_heading"> Creative and responsive design </div>
         </div>
         <div class="service_box">
             <div class="service_box_icon"><i class="fa-sharp fa-solid fa-pen-nib"></i></div>
-            <div class="service_box_heading">Responsive Design
+            <div class="service_box_heading">Awesome support</div>
+        </div>
+        <div class="service_box">
+            <div>
+                <img src="images/download.jpg" alt="html logo">
+                <h4>HTML</h4>
             </div>
-            <div class="service_box_text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, dolorem!</div>
-        </div>
+         </div>
+         <div class="service_box">
+            <div>
+            <img src="images/css.jpg" alt="CSS logo">
+            <h4>CSS</h4>
+        </div></div>
         <div class="service_box">
-            <div class="service_box_icon"> <i class="fa-regular fa-square-check"></i> </div>
-            <div class="service_box_heading">
-
-                Bootstrap 4</div>
-            <div class="service_box_text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
-                doloremque? </div>
-        </div>
+        <div>
+            <img src="images/js.jpg" alt="javascript logo">
+            <h4>JS</h4>
+        </div></div>
         <div class="service_box">
-            <div class="service_box_icon"> <i class="fa-solid fa-chart-pie"></i></div>
-            <div class="service_box_heading"> Font Icons </div>
-            <div class="service_box_text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quos molestiae
-                aliquid
-                maxime quod repudiandae natus quasi dignissimos porro vero! </div>
-        </div>
-        <div class="service_box">
-            <div class="service_box_icon"><i class="fa-sharp fa-solid fa-signal-bars"></i></div>
-            <div class="service_box_heading">Awesome Support
-            </div>
-            <div class="service_box_text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, dolorem!</div>
-        </div>
+        <div>
+            <img src="images/bs2.jpg" alt="bootstrap logo">
+            <h4>bootstrap</h4>
+        </div></div>
     </div>
-    
 </div>
+</section>
+      
+</section>
 <div class="footer">
     <div class="icons">
         <span style="margin: 10px">
@@ -138,47 +135,5 @@
 
 </body>
 
-<style>
-    
-    .blog {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgb(219, 216, 216);
-        padding: 20px;
-    }
-
-    .blog_box {
-        width: 30%;
-        margin: 20px;
-        background-color:#212529;;
-        color: #fff;
-        transition: all .5s ease;
-
-    }
-    .blog_box:hover {
-        transform: scale(1.1);
-    }
-
-    .blog_box_img {
-
-
-    }
-
-    .blog_box_heading {
-        padding: 20px;
-        font-size: 20px;
-    }
-
-    .blog_box_author {
-        padding: 10px 20px;
-        font-size: 15px;
-        color: blue;
-    }
-
-    .blog_box_text {
-        padding: 20px 20px;
-
-    }
-</style>
 
 </html>
