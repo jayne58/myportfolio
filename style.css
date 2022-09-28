@@ -219,11 +219,11 @@
 }
 
 .service_box {
-    width: 26%;
+    width: 15%;
     padding: 20px;
     margin: 20px;
-    background-color: gray;
-    color: #fff;
+    background-color: rgb(219, 216, 216);
+    /* color: black; */
     transition: all .5s ease;
 
 }
