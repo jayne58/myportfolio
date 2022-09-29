@@ -35,7 +35,7 @@
     position: absolute;
 }
 .navbar a{
-    color: white;
+    color: #fff;
   }
   
 
@@ -93,24 +93,23 @@
 .buttons_hire-me {
     padding: 10px 35px;
     background-color: rgb(206, 189, 189);
-    color: aqua;
     border-radius: 25px;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
     transition: 0.5s ease;
 }
 
-.buttons_hire-me+div {
+/* .buttons_hire-me+div {
     padding: 10px 35px;
-    background-color: rgb(94, 31, 209);
-    color: rgb(252, 252, 252);
+    /* background-color: rgb(94, 31, 209); 
+    color: rgb(0,0,0);
     border-radius: 25px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
     transition: 0.5s ease;
-}
+} 
 
 .buttons_hire-me+div a {
     color: rgb(252, 252, 252);
-}
+}*/
 
 .buttons_hire-me:hover,
 .buttons_hire-me+div:hover {
@@ -203,7 +202,7 @@
 .services_heading {
     display: flex;
     align-items: left;
-    /* justify-content: center; */
+ justify-content: center; 
     padding: 20px;
     font-size: 25px;
     font-weight: bold;
@@ -267,3 +266,19 @@
     .footer_text {
         margin-top: 20px;
     }
+    .wrapper {
+        background-color: rgb(219, 216, 216);;
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-gap: 30px;
+        
+
+      }
+      .wrapper div:hover{
+        transform: scale(1.1);
+      }
+     .wrapper div{
+        border: 3px solid rgb(206, 189, 189);
+        border-radius: 1rem;
+        padding-left: 50px;
+     }
